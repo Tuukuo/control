@@ -4,9 +4,10 @@
 //and the last two added by 10. Return the array with the 
 //new values
 
+let arr=[2,5,9,4,6,10];
+
 function program(numbers){
 
-    let arr=[2,5,9,4,6,10];
     let newarr=[];
 
     for(let i=0 ; i<numbers.length; i ++){
@@ -24,7 +25,7 @@ function program(numbers){
 }
     return newarr;
 }
-console.log(program(numbers));
+console.log(program(arr));
 
 
 //Quiz 2.
@@ -33,9 +34,10 @@ console.log(program(numbers));
 // is equal to the fourth index :let arrNum = [1,2,3,4,5,6,7,8,9];
 
 let x=[1,2,3,4,5,6,7,8,9]
+y=[]
 function fourth(arrnums){
     let size=x.length
-    leti=0
+    let i=0
 
     while(i<size){
         if(y[i]===3){
@@ -48,7 +50,7 @@ function fourth(arrnums){
 
     }
 }
-fourth(arrnums)
+fourth(x)
 
 //Quiz 3.
 let fruits=['apple','plum','banana','strawberries','kiwi'];
@@ -68,19 +70,21 @@ arrstrings(fruits);
 
 //Qiz 4.
 text=["Dorcas","Njeri","Tuukuo"]
-function arr(str){
-    for (let i=0;1<arr.length; i ++){
-        console.log(arr[1])
+
+function arra(str){
+    for (let i=0;1<arra.length; i ++){
+        console.log(arra[1])
     }
 }
-arr(text)
+arra(text)
 
 //Quiz 5
-function reverse(text)
+function reverse(text){
 let q = true
 
 while(q){
-    console.log(text.split("")).reverse().join('')
+    console.log(text.split("").reverse().join(''))
 
     break;
-}
+}}
+reverse("Nairobi")
